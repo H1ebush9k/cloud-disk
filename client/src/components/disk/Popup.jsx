@@ -22,7 +22,12 @@ const Popup = () => {
                     <button className="popup__close" onClick={() => dispatch(setPopupDisplay('none'))}>X</button>
                 </div>
                 <Input type="text" placeholder="Введите название папки..." value={dirName} setValue={setDirName}/>
-                <button className="popup__create" onClick={() => createHandler()}>Создать</button>
+                function send1(){() => createHandler()}
+
+                function send2(){() => dispatch(setPopupDisplay('none'))}
+
+                <button className="popup__create" onClick="send1(); send2();">Создать</button>
+
             </div>
         </div>
     );
