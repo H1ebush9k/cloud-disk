@@ -1,7 +1,8 @@
 {
-  "serverPort": 5001,
-  "dbUrl": "mongodb+srv://karinashilnikova:123@cluster0.ribbzbr.mongodb.net/?retryWrites=true&w=majority",
-
+  "serverPort": 5000,
+  "dbUrl": "mongodb+srv://DameliAmangeldiyeva:07dudec01@cluster0.wunjk7r.mongodb.net/?retryWrites=true&w=majority",
   "secretKey": "mern-secret-key",
-  "filePath": "/Users/karinasilnikova/Documents/инфа/cloud-disk/server/files"
+  "filePath": "C:\\Users\\Пользователь\\Desktop\\cloud-disk-10e\\server\\files"
 }
+
+
